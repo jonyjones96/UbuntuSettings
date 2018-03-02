@@ -1,0 +1,13 @@
+GET UPDATES:
+sudo apt-get update
+
+GET GIT:
+sudo apt-get git
+
+GET VIM:
+sudo apt-get vim
+
+Change Keyboard:
+Text Entry Settings > + > English (UK) 
+
+
