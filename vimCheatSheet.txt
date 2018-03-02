@@ -2,3 +2,7 @@ Pasting from an external application:
 
 1) Make sure you are in insert mode
 2) Press Ctrl + Shift + v
+
+Setting the line number by default:
+vim ~/.vimrc
+set number
