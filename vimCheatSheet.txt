@@ -1,0 +1,4 @@
+Pasting from an external application:
+
+1) Make sure you are in insert mode
+2) Press Ctrl + Shift + v
