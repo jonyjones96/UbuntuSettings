@@ -1,3 +1,4 @@
+---Install Docker:
 Sudo apt-get updates
 sudo apt-get install docker-ce
 sudo usermod -a -G docker $USER
@@ -5,5 +6,43 @@ docker --version
 docker info
 docker run hello-world
 
+---Install Docker Compose
 sudo curl -L https://github.com/docker/compose/releases/download/1.19.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+docker-compose --version
 
+---Install Go:
+Download the tar file from "https://golang.org/dl/"
+Type the command "tar -C /usr/local -xzf go1.10.linux-amd64.tar.gz" to extract the file
+type "export PATH=$PATH:/usr/local/go/bin"
+You can set the GOPATH but its not necessary
+create a file called "hello.go"
+insert the following text:
+
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Printf("hello, world\n")
+}
+
+Then type "go build hello.go"
+Type "./hello"
+You can also compile by typing "go run hello.go"
+
+---Install Node.js and NPM:
+
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+---Install Hyperledger Fabric Repositroy and Images:
+git clone -b master https://github.com/hyperledger/fabric-samples.git
+cd fabric-samples
+git checkout v1.0.6
+curl -sSL https://goo.gl/6wtTN5 | bash -s 1.0.6
+
+---Check everything is working:
+./byfn.sh
+./byfn.sh -m generate
+./byfn.sh -m up
+./byfn.sh -m down

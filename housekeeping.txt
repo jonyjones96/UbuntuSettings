@@ -10,4 +10,7 @@ sudo apt-get vim
 Change Keyboard:
 Text Entry Settings > + > English (UK) 
 
-
+Get Visual Studio Code:
+Download the tar file from the visual studio code website
+CD into the downloads folder.
+type "dpkg - i <file>"

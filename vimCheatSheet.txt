@@ -6,3 +6,6 @@ Pasting from an external application:
 Setting the line number by default:
 vim ~/.vimrc
 set number
+
+Undo:
+esc + u

@@ -1,0 +1,3 @@
+---Opening a document in Visual Studio Code:
+type "code <filename>"
+
