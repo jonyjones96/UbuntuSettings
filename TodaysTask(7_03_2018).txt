@@ -1,0 +1,7 @@
+Todays plan:
+
+1) Create a folder in the fabric samples
+2) copy the startFabric.sh file from fabcar
+3) take a look to see how they input all the cars
+4) edit the structure so its inline with your structure
+5) edit the query script 

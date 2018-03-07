@@ -9,3 +9,9 @@ set number
 
 Undo:
 esc + u
+
+Delete all text:
+:1,$d
+
+Go to a certain line:
+<type line number>G
