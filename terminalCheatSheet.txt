@@ -1,3 +1,10 @@
 ---Opening a document in Visual Studio Code:
 type "code <filename>"
 
+Giving an .sh execution permission:
+chmod +x <file name>
+
+article about permissions here: "https://help.ubuntu.com/community/FilePermissions"
+
+Delete a folder in the terminal:
+rm -R <folder>

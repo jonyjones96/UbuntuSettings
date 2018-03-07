@@ -5,3 +5,5 @@ Todays plan:
 3) take a look to see how they input all the cars
 4) edit the structure so its inline with your structure
 5) edit the query script 
+
+Done - it now is able to query the chain
