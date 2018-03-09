@@ -15,3 +15,6 @@ Delete all text:
 
 Go to a certain line:
 <type line number>G
+
+Typing Ctrl + S:
+stops input - Press Ctrl + q to start typing again

@@ -1,0 +1,10 @@
+To Do:
+
+1) Add a peer to the .yml to see if i can do it correctly, in a worst case senario when we want add an organisation we will edit the file bring the network down and restarting it.
+
+2) Try to create a new channel - needed to generate a new user.
+
+
+Bonus Points:
+
+1) Add an orgnistion without bringing the network down.

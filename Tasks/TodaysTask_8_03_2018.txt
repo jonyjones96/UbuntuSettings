@@ -1,0 +1,18 @@
+ Todays Plan:
+
+Get the invoke.js working i.e. insert a new block on the blockchain
+
+Method to achieve this:
+
+1)change the method to the query block to see if its going inside the insertBLock function
+2) If it is thats great that means there is something wrong inside the functin.
+
+Sucess: I forgot to include the "return" in the invoke go function
+
+Bonus Points:
+
+1) Need to take a look at admin and regiter user
+
+ 2) Each user we generate we need to create a channel for them, which means we need to create a channel between two or more peers and install the chaincode on those peers. 
+
+3) Allow a peer to join a channel: which involves creating a new member(organisation) and then create a peer for that member and install the chaincode onto the peer (if required).

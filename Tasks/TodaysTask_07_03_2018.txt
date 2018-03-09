@@ -7,3 +7,6 @@ Todays plan:
 5) edit the query script 
 
 Done - it now is able to query the chain
+
+Bonus Points: 
+1) implement the invoke.js file
