@@ -8,3 +8,6 @@ article about permissions here: "https://help.ubuntu.com/community/FilePermissio
 
 Delete a folder in the terminal:
 rm -R <folder>
+
+Exit Full screen:
+F11

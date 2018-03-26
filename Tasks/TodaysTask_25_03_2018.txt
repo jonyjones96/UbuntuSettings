@@ -1,0 +1,6 @@
+To Do: 
+
+1) Back up files
+2) run go code from first network
+3) Follow petes 7 steps
+

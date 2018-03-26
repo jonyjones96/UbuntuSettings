@@ -3,3 +3,6 @@ Update Repository:
 git add .
 git commit -m "message"
 git push
+
+Set up an RSA key:
+https://help.github.com/articles/connecting-to-github-with-ssh/
