@@ -1,0 +1,2 @@
+TO DO:
+Implement Petes 7 steps to get the SDK working
